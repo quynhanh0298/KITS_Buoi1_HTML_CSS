@@ -1,0 +1,280 @@
+/* Vertical Lines */
+.vertical {
+  width: 1px;
+  height: 100%;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.vertical-inner {
+  position: absolute;
+  width: 100%;
+  height: 40%;
+  background: grey;
+  top: 30%;
+  box-shadow: 0px 0px 30px 20px grey;
+}
+
+/* ---------------------------------- */
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 50px;
+}
+
+.header-left {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.header-left-nav {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.header-left-nav a {
+  text-decoration: none;
+  color: #1E1E1E80;
+  ;
+}
+
+.header-right {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+
+}
+
+.banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 50px 50px 0;
+  margin: 0 50px 50px;
+  background-color: #C1DCDC;
+  border-radius: 24px;
+}
+
+.banner-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.banner-right {}
+
+.search-box {
+  display: flex;
+  background: #FFFFFF;
+  padding: 8px;
+  border-radius: 12px;
+}
+
+.search-box-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.search-box-text input {
+  border: none;
+
+}
+
+.search-icon {
+  background: #C1DCDC;
+  border-radius: 12px;
+  padding: 14px;
+}
+
+.banner-left-middle {
+  display: flex;
+  flex-direction: row;
+}
+
+.best-selling {
+  display: flex;
+  flex-direction: row;
+  margin: 0 50px 50px;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.best-selling-see-more {
+  text-decoration: none;
+  color: black;
+  background: #C1DCDC;
+  border-radius: 8px;
+  padding: 10px 20px;
+}
+
+.best-selling-see-more-text::after {
+  content: url(./asserts/arrow.svg);
+  padding-left: 10px;
+}
+
+.best-selling-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.best-selling-right-top,
+.best-selling-right-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.about-us {
+  margin: 0 50px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.about-us-top {
+  text-align: center;
+}
+
+.about-us-top-above {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+}
+
+.about-us-top-below {
+  color: #1E1E1E80;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.about-us-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.about-us-bottom-item {
+  text-align: center;
+}
+
+.about-us-bottom-item img {
+  padding: 28px;
+  background: #C1DCDC;
+  border-radius: 50%;
+}
+
+.categories {
+  margin: 0 50px 50px;
+}
+
+.categories-top {
+  text-align: center;
+}
+
+.categories-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.categories-bottom-item {
+  align-self: flex-start;
+  text-align: center;
+
+}
+
+.categories-bottom-item-center {
+  align-self: flex-end;
+}
+
+.categories-explore{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.categories-explore a{
+  text-decoration: none;
+  color: black;
+  background: #FFFFFF;
+  border-radius: 8px;
+  padding: 10px 20px;
+}
+
+.categories-explore-text::after {
+  content: url(./asserts/arrow.svg);
+  padding-left: 10px;
+}
+
+.feedback {
+  display: flex;
+  flex-direction: column;
+}
+
+.feedback-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.feedback-item-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.feedback-item-bottom-left {
+  display: flex;
+  flex-direction: row;
+}
+
+.feedback-item-bottom-left-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-top-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-top-left-icons {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.footer-top-left-icons img {}
+
+.footer-top-right-text-title {
+  font-weight: bold;
+}
