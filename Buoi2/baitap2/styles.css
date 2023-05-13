@@ -1,3 +1,6 @@
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
 .navigation {
   display: flex;
   justify-content: center;
@@ -13,16 +16,22 @@
   font-weight: bold;
 }
 .banner {
-  background-color: rgb(201, 196, 196);
+  /* background-color: rgb(201, 196, 196); */
+  background-image: linear-gradient(to right, pink, purple);
+  /* background-image: url(https://i.pinimg.com/originals/93/27/e7/9327e7da553a3111959de04fdf2e2eb4.jpg);
+  background-repeat: repeat-x; */
   display: flex;
   justify-content: center;
 }
 .banner-text {
   padding: 100px 0 30px;
+  text-align: center;
+  /* background-color: aliceblue;
+  background-clip: content-box; */
 }
 .main {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .subscribe {
   display: flex;
@@ -34,7 +43,7 @@
 }
 .subscribe,
 .news-cover {
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 .news-cover {
@@ -45,13 +54,18 @@
 }
 .im {
   width: 350px;
-  height: 350px;
+  height: 250px;
   opacity: 50%;
-  border-radius: 15%;
+  border-radius: 5%;
+  object-fit: cover;
 }
 .text {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -10%);
+}
+.subscribe,
+.news-cover {
+  padding: 0 100px 0;
 }
