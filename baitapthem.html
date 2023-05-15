@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* .item {
+        background: pink;
+        border-radius: 38px;
+        text-align: center;
+        position: relative;
+        width: 573px;
+        height: 70px;
+        border: 9px solid pink;
+      }
+      .item::before {
+        content: "";
+        position: absolute;
+        display: inline-block;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 573px;
+        height: 70px;
+        background: cyan;
+        border-radius: 38px;
+        border: 6px solid cyan;
+      }
+      .item::after {
+        content: "Bai tap CSS";
+        position: absolute;
+        display: inline-block;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 573px;
+        height: 70px;
+        background: gray;
+        border-radius: 38px;
+        border: 3px solid black;
+      } */
+      .item {
+        background: pink;
+        border-radius: 38px;
+        text-align: center;
+        position: relative;
+        width: 573px;
+        height: 70px;
+        border: 9px solid pink;
+        box-shadow: 0 0 0 3px red, 0 0 0 3px white, 0 0 0 6px blue;
+        position: relative;
+      }
+      .item::before {
+        position: absolute;
+        content: "Bài tập CSS";
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .item::after {
+        position: absolute;
+        content: "";
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flat_tick_icon.svg/1024px-Flat_tick_icon.svg.png")
+          center center / 100% no-repeat transparent;
+        top: 50%;
+        left: 5%;
+        transform: translate(-50%, -50%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="item"></div>
+  </body>
+</html>
